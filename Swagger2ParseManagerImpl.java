@@ -1,4 +1,4 @@
-package com.tsp.onecode.application.manager.impl;
+package main.java.com.tsp.onecode.application.manager.impl;
 
 import com.gcommon.starter.base.exception.ValidationException;
 import com.gcommon.starter.lowcode.exception.ValidatorErrorCodeEnum;
@@ -9,7 +9,7 @@ import com.tsp.onecode.application.manager.ApiDocParseManager;
 import com.tsp.onecode.domain.shared.enums.ApiDefinitionHttpType;
 import com.tsp.onecode.domain.shared.enums.ApiInputParamBodyType;
 import com.tsp.onecode.domain.shared.enums.ApiParamDataType;
-import com.tsp.onecode.domain.shared.enums.SwaggerParamDataType;
+import com.tsp.onecode.domaign.shared.enums.SwaggerParamDataType;
 import io.swagger.models.*;
 import io.swagger.models.parameters.*;
 import io.swagger.models.properties.*;
